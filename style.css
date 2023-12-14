@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+header{
+  background-color: beige;
+  height: 100px;
+  text-align: center;
+}
+h1{
+  padding: 25px;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.box{
+  background-color: red;
+  width: 600px;
+  height: 600px;
+}
+button{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
